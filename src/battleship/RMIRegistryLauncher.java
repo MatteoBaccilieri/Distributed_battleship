@@ -3,7 +3,7 @@ package battleship;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 
-public class App {
+public class RMIRegistryLauncher {
     public static void main(String[] args) {
         try {
             // Try to create the RMI registry at port 1099
