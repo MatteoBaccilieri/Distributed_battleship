@@ -7,7 +7,7 @@ This project implements a **distributed multiplayer Battleship game** using the 
 ## 🏗️ System Architecture
 
 - **Client-Server Model**: Players interact with the game through a client, which communicates with a distributed network of servers.
-- **Raft Consensus Algorithm**: Ensures leader election, fault tolerance, and data consistency across multiple servers.
+- **Raft Consensus Algorithm**: Implemented from scratch to ensure leader election, fault tolerance, and data consistency across multiple servers.
 - **Java RMI Communication**: Used for distributed interactions between the client and game servers.
 
 ## 🎮 Features
